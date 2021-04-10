@@ -1,0 +1,9 @@
+git init= iniciar la carpeta
+pwd = mostrar donde estas
+ls = mostrar documentos de la carpeta
+git add = añadir un archivo a staring area
+git commit
+git config --global user.email "you@example.com" = create email's developer
+ git config --global user.name "Your Name" = create username's developer
+ git commit -m "comentario" Lo mismo que el commit regular, pero ahora no necesitas entrar a VIN
+git status Ver en que status (wd, sa, r) están los docs
