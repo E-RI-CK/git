@@ -1,0 +1,18 @@
+git init= iniciar la carpeta
+pwd = mostrar donde estas
+ls = mostrar documentos de la carpeta
+git add = añadir un archivo a staring area (entorno de trabajo)
+git commit
+git config --global user.email "you@example.com" = create email's developer
+ git config --global user.name "Your Name" = create username's developer
+ git commit -m "comentario" Lo mismo que el commit regular, pero ahora no necesitas entrar a VIN
+git status Ver en que status (wd, sa, r) están los docs
+git restore @document = restaurar un doc a su estado previo .
+git diff = ver diferencias entre los documentos despues de una previa modificacion
+git log = ver todos los commit hechos (commits = capturas )
+git commit -m "He agregado un .gitignore" = agregar un texto si necesidad de entrar al VIN 
+git branch Ver las ramas que hay ("master" es la rama default)
+git branch "nombre" Crear una nueva rama
+git checkout "nombre" Ir a una rama en especifico  /*ramas = versiones del proyecto*/
+git remote add origin https://direccion = añadir a que repositorio quieres añadir docs
+$ git push -u origin master = subir la rama master al repositorio
