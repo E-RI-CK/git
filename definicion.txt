@@ -16,3 +16,5 @@ git branch "nombre" Crear una nueva rama
 git checkout "nombre" Ir a una rama en especifico  /*ramas = versiones del proyecto*/
 git remote add origin https://direccion = añadir a que repositorio quieres añadir docs
 $ git push -u origin master = subir la rama master al repositorio
+$ git rm --cached ruta-de-archivo = eliminar un archivo en especifico
+git push origin master --force = pushear o sea actualizar el git hub
