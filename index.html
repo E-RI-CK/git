@@ -2,12 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Este es un documento HTML5"> <!--Descripcion de la pagina-->
+    <meta name="keywords" content="HTML5,CSS y JAVASCRIPT"> <!--Palabras clave de la pagina-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/png/512/818/818649.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css" >
+    
     <title>Document</title>
 </head>
 <body>
-    <p>Cambio</p>
+    <header>
+        My First Web Page
+        <time datetime="2016-10-12" pubdate>publicado 12-10-2016</time>
+    </header>
+    <nav>Principal | Fotos | Videos | Contactos</nav>
+    <main>
+        <section>
+            <article id="noticias">
+            Este es el texto de mi primer artículo
+            <!--Se usa para que el parrafo tenga un estilo de codigo de programación respeta saltos de linea-->
+                <pre>   
+                    Hola que tal como te va;
+                    <cite>Erick Valero</cite> 
+                    <code>
+                        void main(){
+                        printf("Hola mundo");
+                        }
+                    </code>
+                </pre>
+            </article>
+            <article id="noticiaslocales">
+            Este es el <em>texto</em> de <u>mi</u> segundo <i>articulo</i>
+            </article>
+        </section>
+        <aside>
+            <!--mark resalta texto relevante-->
+            <p>Cita del <mark>artículo</mark> uno</p>
+            <p>Cita del artículo dos</p>
+        </aside>
+    </main> 
+    <footer>
+        <!--addres representa direcciones (informacion de contacto) -->
+        <address>Toronto, Canada</address> 
+        <!--small representa letras pequeñas-->
+        <!--El elemento target es para ver si el enlace se abre en una nueva pagina(_blank) o en la misma(_self)-->
+        <small>&copy; 2016 <a href="http://www.jdgauchat.com" target="_blank">J.DGauchat</a></small> 
+        <!--mailto palabra  clave para enviar un email , tel palabra clave para llamar a un numero-->
+        <small><a href="mailto:andro_valero713@hotmail.com">Contacto Email</a></small>
+    </footer>
 </body>
 </html>
